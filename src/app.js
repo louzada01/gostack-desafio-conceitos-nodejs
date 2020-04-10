@@ -11,11 +11,11 @@ app.use(cors());
 const repositories = [];
 
 app.get("/repositories", (request, response) => {
-  // TODO
+  return response.status(200).send({repositories});
 });
 
 app.post("/repositories", (request, response) => {
-  // TODO
+  
 });
 
 app.put("/repositories/:id", (request, response) => {
