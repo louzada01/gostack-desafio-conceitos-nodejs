@@ -91,4 +91,8 @@ app.post("/repositories/:id/like", (request, response) => {
   return response.status(200).json(findRepository);
 });
 
+app.put("/repositories/:id/dislike", (request, response) => {
+  // TODO
+})
+
 module.exports = app;
